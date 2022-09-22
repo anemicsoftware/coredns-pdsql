@@ -2,11 +2,10 @@
 package pdsql
 
 import (
+	"github.com/anemicsoftware/coredns-pdsql/pdnsmodel"
 	"net"
 	"strconv"
 	"strings"
-
-	"github.com/wenerme/coredns-pdsql/pdnsmodel"
 
 	"github.com/coredns/coredns/plugin"
 	"github.com/coredns/coredns/request"
